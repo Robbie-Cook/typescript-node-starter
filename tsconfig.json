@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"lib": ["es2020", "DOM", "ESNext"],
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "es6",
+		"jsx": "react",
+		"allowJs": true,
+		"target": "es5",
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"checkJs": false,
+		"moduleResolution": "node",
+		"noEmitOnError": false
+	},
+
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts", "assets", "**/*.json", "**/*.svg", "**/*.story.tsx"]
+}
